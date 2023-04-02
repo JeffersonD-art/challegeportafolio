@@ -13,11 +13,19 @@
 .sobre-mi__info{
     display: flex;
     align-items: center;
-    gap: 2rem;
+   
+    justify-content: space-between;
+}
+.sobre-mi__box-img{
+    width: 40%;
 }
 
 .sobre-mi__img{
     border-radius: 50%;
     width: 50rem;
     min-width: 30rem;
+}
+
+.sobre-mi__box-parrafo{
+    width: 60%;
 }
