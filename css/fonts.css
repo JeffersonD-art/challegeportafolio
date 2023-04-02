@@ -1,13 +1,14 @@
 
+
+
+
 @font-face {
-    font-family: "Jenthill";
-    src: url(/fonts/jenthill.woff);
+    font-family: 'Jenthill';
+    src: url('../fonts/jenthill.woff2') format('woff2'),
+    url('../fonts/jenthill.woff2') format('woff2');
 }
 @font-face {
-    font-family: "Jenthill";
-    src: url("/fonts/jenthill.woff2");
-}
-@font-face {
-    font-family: "Cooper Hewitt";
-    src: url("/fonts/CooperHewitt-Light.woff");
+    font-family: 'Cooper Hewitt';
+    src: url('../fonts/CooperHewitt-Light.woff') format('woff'),
+    url('../fonts/CooperHewitt-Light.woff') format('woff');
 }
