@@ -27,6 +27,7 @@
     --color-biscuit: hsl(26, 18%, 61%);
     --color-oat: hsl(17, 12%, 77%);
     --color-light: hsl(0, 0%, 97%);
+    --color-light-reverse: hsl(274, 4%, 15%);
     --color-light-fade: hsl(300, 11%, 96%);
     --color-light-down: hsl(0, 25%, 74%);
     --color-light-down-2: hsl(210, 4%, 96%);
@@ -52,6 +53,7 @@
         --color-sherbet-fade: hsl(260, 24%, 18%);
         --color-marshmellow: hsl(314, 22%, 42%);
         --color-light: hsl(274, 4%, 15%);
+        --color-light-reverse: hsl(0, 0%, 97%);
         --color-light-fade: hsl(274, 4%, 16%);
         --color-light-down: hsl(274, 4%, 16%);
         --color-light-down-2: hsl(274, 4%, 18%);

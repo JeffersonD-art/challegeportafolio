@@ -8,6 +8,7 @@
 
 
 .hero__info-main {
+    padding: 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,8 +30,8 @@ h1{
 }
 
 .hero__social-list{
-    position: relative;
-    top: 10rem;
+    margin-top: 5rem;
+    
 
 }
 
