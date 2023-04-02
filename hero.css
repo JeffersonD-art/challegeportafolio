@@ -1,0 +1,41 @@
+.hero {
+    background-color: var(--color-mint);
+    padding-top: 3rem;
+    height: 90vh;
+}
+
+
+.hero__info-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    font-size: 6rem;
+    line-height: 7rem;
+    
+}
+.hero__info-text{
+    position: relative;
+}
+
+.g-social__list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.hero__social-list{
+    position: relative;
+    top: 10rem;
+
+}
+
+.social__img {
+    width: 4rem;
+    border-radius: 50%;
+}
+
+.hero__img {
+    max-width: 40%;
+}

@@ -1,0 +1,70 @@
+/* textos */
+.titulo-com {
+    font-size: 3.75rem;
+    font-weight: 900;
+    font-family: var(--tipo-principal);
+    text-align: center;
+    padding: 3rem 0;
+}
+.parrafo-com {
+    font-size: 1.25rem;
+    font-weight: 300;
+    font-family: var(--tipo-parrafo);
+}
+
+/* cajas */
+
+.container-com {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.social__list-com {
+    display: flex;
+}
+
+.social__item-com a {
+    margin-left: 5px;
+    width: 50px;
+    height: 50px;
+    background-image: url(/assets/propios/icon-codepen.png);
+    background-size: contain;
+    border-radius: 100%;
+}
+
+.item__box-com {
+    border: solid 2px var(--color-dark-opacity);
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    filter: saturate(10%);
+    width: 10rem;
+    height: 10rem;
+    transition: filter 0.3s ease-out;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.box-botones{
+    display: flex;
+    gap: 3rem;
+}
+.boton{
+    border: 2px solid var(--color-dark-opacity);
+    
+    border-radius: 15px;
+    padding: .5rem 2rem;
+    display: flex;
+    gap: .5rem;
+    
+}
+
+.boton>img{
+    width: 20px;
+    object-fit: contain;
+}

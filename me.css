@@ -1,0 +1,22 @@
+.sobre-mi{
+    background-color: var(--color-marshmellow);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.sobre-mi__info{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.sobre-mi__img{
+    border-radius: 50%;
+    max-width: 45%;
+}

@@ -1,0 +1,19 @@
+.g-container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.g-titulo{
+    font-size:6rem;
+    font-weight: 900;
+    font-family: var(--tipo-principal);
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.g-parrafo{
+    font-weight: 300;
+    font-size: 2rem;
+    font-family: var(--tipo-tercera);
+}
