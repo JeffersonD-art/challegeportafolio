@@ -24,6 +24,12 @@
     font-family: var(--tipo-tercera);
 }
 
+input,textarea{
+    font-size: 2rem;
+    font-family: var(--tipo-principal);
+    fie: var(--color-dark);  
+}
+
 .clasic {
     padding: 2rem 2rem;
     background: var(--color-light);
