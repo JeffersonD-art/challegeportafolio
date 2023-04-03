@@ -1,4 +1,4 @@
-.hobbies{
+.hobbies {
     background-color: var(--color-mint);
     height: auto;
     padding: 5rem 0;
@@ -6,41 +6,32 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
 }
 
-.hobbies__pack{
+.hobbies__pack {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 2rem;
-    
 }
 
-.hobbies__box{
-   text-align: center;
-    
+.hobbies__box {
+    text-align: center;
 }
 
-.hobbies__box>img{
+.hobbies__box > img {
     width: 15rem;
     height: 15rem;
     object-fit: contain;
-    
+
     filter: saturate(10%);
-    transition: all .7s;
-    
+    transition: all 0.7s;
 }
 
-
-.hobbies__box .github-invert:hover{
+.hobbies__box .github-invert:hover {
     filter: invert(1);
-    
-    
-    
 }
-.hobbies__box>img:hover{
+.hobbies__box > img:hover {
     filter: saturate(100%);
-    transition: all .7s;
-    
+    transition: all 0.7s;
 }
