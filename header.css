@@ -8,8 +8,6 @@ header{
     align-items: center;
 }
 
-
-
 .header__logo {
     width: 100px;
     font-family: var(--tipo-secundaria);
